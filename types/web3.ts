@@ -1,11 +1,4 @@
-export type Web3Status =
-  | "idle"
-  | "connecting"
-  | "connected"
-  | "not-installed"
-  | "wrong-network"
-  | "rejected"
-  | "error";
+export type Web3Status = "idle" | "connecting" | "connected" | "not-installed" | "rejected" | "error";
 
 export interface Web3State {
   address?: string;
